@@ -40,7 +40,7 @@ git clone https://github.com/StellarYard/stellaryard-docs.git
 cd stellaryard-docs
 
 # Install build dependencies
-pip install mkdocs mkdocs-material
+pip install -r requirements.txt
 
 # Serve locally with live reload
 mkdocs serve
